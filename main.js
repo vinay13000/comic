@@ -15,5 +15,6 @@
       var updatedImage = images[i];
      
       document.getElementById("family_member_image").src = updatedImage;
+      document.getElementById("audio").play();
      
   }
